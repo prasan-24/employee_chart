@@ -82,7 +82,6 @@ const Employee = () => {
           </div>
         </div>
         <div className="row">
-          <h6>Type Of Credit Card Users</h6>
           <div className="col-md-8 col-lg-8">
           <Chart type="pie" series={[maestroCardRes.length,masterCardRes.length,visaCardRes.length]} options={{title:{text:"Type Of Credit Card Users"}, labels:["MAESTRO CARD","MASTER CARD","VISA CARD"]}} />
           </div>
